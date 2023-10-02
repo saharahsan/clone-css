@@ -1,0 +1,112 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+header,main{
+    margin: 0 auto;
+   
+}
+
+header button:hover {
+    background: #ff00ff;
+    color:white;
+    
+}
+header button {
+    border: 1px solid #ff00ff;
+    border-radius: 290486px;
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color,background;
+}
+#book{
+    border-radius: 50px;
+    border:2px solid #ff00ff;
+    padding: 8em 18em;
+    background-color: black;
+    align-content: center;
+    
+}
+#book:hover{
+    background: #ff00ff
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.nav button{
+    border-radius: 298997px;
+    border:2px solid #ff00ff;
+    padding: 1em 2em;
+    background-color: white;
+    align-content: center;
+    color :black;
+    cursor:pointer;
+
+}
+#git:hover{
+    background: black;
+    color: white;
+    border:2px solid white;
+
+}
+#facebook:hover{
+    background: blue;
+    color: white;
+    border:2px solid black;
+
+}
+#twitter:hover{
+    background: #3385ff;
+    color: white;
+    border:2px solid black;
+
+}
+#footer{
+    
+    border: 1px solid #ff00ff;
+    border-radius: 290486px;
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color,background;
+    align-content: center;
+}
+#footer:hover {
+    background: #ff00ff;
+    color:black;
+    
+}
+.nav2{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.nav2 button{
+    border-radius: 10px;
+    margin: 1em 0;
+    border:2px solid #ff00ff;
+    padding: 8em 0;
+    background-color: black;
+    align-content: center;
+    color :white;
+    cursor: pointer;
+    
+
+}
+.nav2 button:hover{
+    background: #ff00ff;
+    border:2px solid white;
+    color: black;
+}
+
+
